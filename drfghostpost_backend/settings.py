@@ -103,6 +103,15 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    # "http://localhost:8080",
+    "http://127.0.0.1:3000",
+    # "http://127.0.0.1:8000/",
+    # "http://localhost:3000/"
+    # "https://github.com/KenzieAcademy/django-rest-rtjitradi",
+    # "https://github.com/rtjitradi/drf_shoestore_frontend"
+    "http://localhost:3000"
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/

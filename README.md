@@ -1,5 +1,7 @@
 ***https://github.com/rtjitradi/ghostpost_frontend***
 
+superuser(username: reggy / password: asdf)
+
 # ghostpost_backend
 Backend for GhostPost DRF + React 
 

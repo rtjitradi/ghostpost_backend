@@ -18,8 +18,11 @@ from django.urls import path, include
 
 from rest_framework import routers
 
+from ghostpost_app.views import BoastRoastViewSet
+
 
 router = routers.DefaultRouter()
+router.register(r'boastroast', BoastRoastViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

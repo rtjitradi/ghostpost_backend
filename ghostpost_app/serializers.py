@@ -14,5 +14,5 @@ class BoastRoastSerializer(serializers.HyperlinkedModelSerializer):
             'downvotes',
             'post_datetime',
             'privatesecret_key',
-            'vote_sum'
+            'vote_score'
         ]
